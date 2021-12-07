@@ -14,6 +14,31 @@ Racer is **not** actively developped now.
 Please consider using newer software such as
 [rust-analyzer](https://rust-analyzer.github.io/).
 
+## Installation while we work on the latest release
+
+**NOTE**
+From 2.1, racer needs **nightly-2021-12-06 rust**
+
+### Requirements
+
+#### Nightly Rust
+
+If you're using rustup, run
+```
+rustup toolchain add nightly-2021-12-06
+```
+
+#### Cargo
+Internally, racer calls cargo as a CLI tool, so please make sure cargo is installed
+
+### With `cargo install`
+
+Simply run:
+
+```cargo +nightly-2021-12-06 install racer```
+
+As mentioned in the command output, don't forget to add the installation directory to your `PATH`.
+
 ## Installation
 
 **NOTE**
